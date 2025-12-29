@@ -1,0 +1,70 @@
+/* content.css - 其他內容頁面共用 */
+
+body {
+    font-family: '微軟正黑體', 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; /* 白色背景 */
+    color: #444;
+}
+
+header {
+    background-color: #6a5acd; /* 藍紫色調 */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2em;
+    margin: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 5px 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
+    padding: 5px 10px;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s;
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid #ffcc00; /* 懸停時出現黃色底線 */
+}
+
+main {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    min-height: 75vh;
+}
+
+h2 {
+    color: #6a5acd; /* 與 header 顏色一致 */
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+}
+
+footer {
+    background-color: #444;
+    color: #ccc;
+    text-align: center;
+    padding: 10px 0;
+}
